@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+### React Coding Challenge: Roster Management App
+## Overview
+This React application was developed as part of a coding challenge to showcase expertise in state management, dynamic data population, and adherence to design specifications. The challenge focused on creating a Roster Management App with two main pages: Roster Details and Formation Overview.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Roster Details
+Editable Team Name
+Allows users to edit the team name, with the edit icon always visible initially.
+After the name is changed once, the edit icon is visible only on hovering.
 
-## Available Scripts
+## Search Field
+Includes a search bar to filter players by name and/or position.
+Supports keystrokes: Enter to execute the search, ESC to cancel, and clicking 'x' to clear the search criteria.
 
-In the project directory, you can run:
+## Roster Importer
+Handles importing rosters from .csv files, with error handling for empty values.
+Provides a summary of player counts and positions before import.
+Supports re-importing, clearing, and refreshing the application state.
 
-### `npm start`
+## Roster Table
+Displays player data in a table, including country flags and readable height/weight values.
+Includes an actions menu for editing or deleting players, with validation checks.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Formation Overview
+## Formation Preview
+Displays a 4-3-3 formation with players positioned according to their roles.
+Checks for roster availability, sufficient starters, and appropriate position counts.
+Shows specific messages if conditions are not met.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Player Details
+Allows users to view details about players in the formation.
+Clicking on a player reveals their information and position-specific stats.
+Goalkeepers show Clean Sheets and Saves, while other positions show Goals, Assists, Appearance, and Minutes Played.
