@@ -35,3 +35,7 @@ Goalkeepers show Clean Sheets and Saves, while other positions show Goals, Assis
 1.Clone the repository.
 2.Install dependencies using npm install.
 3.Run the application locally with npm start.
+
+# Deployment
+The application is deployed using Netlify for easy access.
+You can find the application here : https://657094d30f58ec068270f9ca--snazzy-beignet-c8e998.netlify.app/
