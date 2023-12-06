@@ -1,4 +1,4 @@
-### React Coding Challenge: Roster Management App
+# React Coding Challenge: Roster Management App
 ## Overview
 This React application was developed as part of a coding challenge to showcase expertise in state management, dynamic data population, and adherence to design specifications. The challenge focused on creating a Roster Management App with two main pages: Roster Details and Formation Overview.
 
@@ -20,7 +20,7 @@ Supports re-importing, clearing, and refreshing the application state.
 Displays player data in a table, including country flags and readable height/weight values.
 Includes an actions menu for editing or deleting players, with validation checks.
 
-### Formation Overview
+# Formation Overview
 ## Formation Preview
 Displays a 4-3-3 formation with players positioned according to their roles.
 Checks for roster availability, sufficient starters, and appropriate position counts.
@@ -30,3 +30,8 @@ Shows specific messages if conditions are not met.
 Allows users to view details about players in the formation.
 Clicking on a player reveals their information and position-specific stats.
 Goalkeepers show Clean Sheets and Saves, while other positions show Goals, Assists, Appearance, and Minutes Played.
+
+# How to Run Locally
+1.Clone the repository.
+2.Install dependencies using npm install.
+3.Run the application locally with npm start.
